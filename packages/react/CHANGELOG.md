@@ -1,5 +1,31 @@
 # @primer/react
 
+## 37.0.0-rc.6
+
+### Major Changes
+
+- [#4953](https://github.com/primer/react/pull/4953) [`04e8c9c`](https://github.com/primer/react/commit/04e8c9c4daf6b2e39f0a13f16e4f2f3399902347) Thanks [@iansan5653](https://github.com/iansan5653)! - Delete deprecated draft components `MarkdownEditor`, `MarkdownInput`, and `InlineAutocomplete`
+
+### Minor Changes
+
+- [#4913](https://github.com/primer/react/pull/4913) [`6c9121e`](https://github.com/primer/react/commit/6c9121e217e4815c7c6ab3c03474b2ca632f05e9) Thanks [@joshblack](https://github.com/joshblack)! - Update Banner to use CSS Modules behind feature flag
+
+### Patch Changes
+
+- [#4975](https://github.com/primer/react/pull/4975) [`0b89fc0`](https://github.com/primer/react/commit/0b89fc040e05a61de4a686d3054f4cb6d9f32f6d) Thanks [@jonrohan](https://github.com/jonrohan)! - Change the Link component feature flag from primer_react_css_modules_staff to primer_react_css_modules_ga
+
+- [#4981](https://github.com/primer/react/pull/4981) [`c8fe1c6`](https://github.com/primer/react/commit/c8fe1c6005a7d8d8fe25e10d4ef107b75ab21db3) Thanks [@jonrohan](https://github.com/jonrohan)! - Removes the feature flag from the `Blankslate` component to always render with CSS modules.
+
+- [#4967](https://github.com/primer/react/pull/4967) [`98d3d13`](https://github.com/primer/react/commit/98d3d13196ed918b8a4171062d9965d59b9073ed) Thanks [@TylerJDev](https://github.com/TylerJDev)! - Utilizes `[disabled]` selector instead of `:disabled` in `TooltipV2` to address a false positive
+
+- [#4977](https://github.com/primer/react/pull/4977) [`1adea12`](https://github.com/primer/react/commit/1adea12b9c53b4de0f6b34c37617c45fa724f10b) Thanks [@siddharthkp](https://github.com/siddharthkp)! - SelectPanel: Add `role=combobox` to filter input (behind feature flag `primer_react_select_panel_with_modern_action_list`)
+
+- [#4971](https://github.com/primer/react/pull/4971) [`ff56b04`](https://github.com/primer/react/commit/ff56b0476e59249db0d46a2c163a61ea75d06750) Thanks [@jonrohan](https://github.com/jonrohan)! - Changed Heading feature flag from `primer_react_css_modules_staff` to `primer_react_css_modules_ga`
+
+- [#4970](https://github.com/primer/react/pull/4970) [`44a3dc9`](https://github.com/primer/react/commit/44a3dc94f38e8056200155ea19bfd19904d8cba2) Thanks [@joshblack](https://github.com/joshblack)! - Update tab in UnderlinePanels to set explicit type
+
+- [#4966](https://github.com/primer/react/pull/4966) [`c097e96`](https://github.com/primer/react/commit/c097e9624cecb6506fcc38abcdc6605e033178f5) Thanks [@siddharthkp](https://github.com/siddharthkp)! - SelectPanel: Fix focus and selection styles for Windows high contrast themes (behind feature flag `primer_react_select_panel_with_modern_action_list`)
+
 ## 37.0.0-rc.5
 
 ### Major Changes
